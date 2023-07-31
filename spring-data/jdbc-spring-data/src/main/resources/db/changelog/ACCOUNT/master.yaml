@@ -1,9 +1,0 @@
-databaseChangeLog:
-
-  - changeSet:
-      id: 1
-      author: Jaisoft
-
-  - include:
-      file: DDL/002_delete_tables.sql
-      relativeToChangelogFile: true

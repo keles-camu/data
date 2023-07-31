@@ -1,5 +1,0 @@
-- hosts: all
-  become: yes
-  tasks:
-    - name: Install MySQL client
-      shell: apt-get -y install mysql-client
